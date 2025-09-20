@@ -38,3 +38,23 @@ $db['default'] = array(
     'save_queries' => TRUE
 );
 ```
+Import file database SQL yang terdapat pada folder database_sales (sales.sql) melalui phpMyAdmin.
+
+3. Konfigurasi Base URL
+
+Buka application/config/config.php.
+
+Ubah base_url sesuai lokasi project Anda:
+
+$config['base_url'] = 'http://localhost/sales/';
+
+4. Menjalankan Server
+
+Jalankan Apache + MySQL melalui XAMPP/WAMP.
+
+Akses website di browser:
+
+http://localhost/sales/
+
+
+Website siap digunakan.
